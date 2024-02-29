@@ -1,1 +1,7 @@
-
+.rating-card {
+  width: 412px;
+  height: 416px;
+  padding: 32px;
+  border-radius: 20px;
+  background-image: radial-gradient(circle at 50% 0, #232a34, #181e27 89%);
+}
