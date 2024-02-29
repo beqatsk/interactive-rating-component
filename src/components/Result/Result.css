@@ -8,10 +8,6 @@
   border-radius: 20px;
   background-image: radial-gradient(circle at 50% 0, #232a34, #181e27 90%);
 }
-/* .payment {
-  width: 200px;
-  height: 200px;
-} */
 .selected {
   width: 200px;
   height: 32px;

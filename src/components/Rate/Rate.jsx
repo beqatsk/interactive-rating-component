@@ -2,9 +2,9 @@ import "./Rate.css";
 import Star from "/images/Star.png";
 import { useState } from "react";
 
-export default function Rate() {
+export default function Rate({ setSubmit, rate, setRate }) {
   let numbers = [1, 2, 3, 4, 5];
-  const [rate, setRate] = useState(null);
+
   return (
     <div className="rating-card">
       <img src={Star} alt="star" className="star" />
@@ -25,7 +25,14 @@ export default function Rate() {
           </button>
         ))}
       </div>
-      <button className="sumbit">SUMBIT</button>
+      <button
+        className="submit"
+        onClick={() => {
+          rate && setSubmit(true);
+        }}
+      >
+        SUBMIT
+      </button>
     </div>
   );
 }
