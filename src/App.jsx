@@ -7,6 +7,7 @@ function App() {
     <>
       <div className="rating-card">
         <img src={Star} alt="star" />
+        <h1>How did we do?</h1>
       </div>
     </>
   );
